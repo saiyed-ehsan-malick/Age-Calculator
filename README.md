@@ -1,2 +1,34 @@
 # Age-Calculator
 A responsive age calculator web app using HTML, CSS &amp; JS – calculates age in years.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">SEM</div>
+
+  </header>
+  <div class="container">
+    <h1>Age Calculator</h1>
+    <label for="birthdate">Enter your birthdate</label>
+    <input type="date" id="birthdate" name="birthdate">
+    <button onclick="calculateAge()">Calculator Age</button>
+    <p id="result"></p>
+  </div>
+
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
